@@ -23,7 +23,7 @@ app.py  ────────────────────────
   │  run_agent(user_message, history)
   ▼
 agent.py  ────────────────────────────────────────────────────────►  Groq LLM
-  │                                                              (gpt-oss-20b)
+  │                                                              (gpt-oss-120b)
   │  Tool call loop:
   │    LLM decides which tool to call
   │    dispatch_tool() routes to the right function
